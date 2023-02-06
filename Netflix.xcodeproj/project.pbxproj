@@ -16,6 +16,7 @@
 		60A0EE8A2991068E00847B95 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE892991068E00847B95 /* SearchViewController.swift */; };
 		60A0EE8C299106AE00847B95 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE8B299106AE00847B95 /* UpcomingViewController.swift */; };
 		60A0EE8E299106D000847B95 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE8D299106D000847B95 /* DownloadsViewController.swift */; };
+		60A0EE942991187000847B95 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE932991187000847B95 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		60A0EE892991068E00847B95 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		60A0EE8B299106AE00847B95 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		60A0EE8D299106D000847B95 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		60A0EE932991187000847B95 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,10 @@
 		60A0EE712991037700847B95 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				60A0EE722991037700847B95 /* AppDelegate.swift */,
-				60A0EE742991037700847B95 /* SceneDelegate.swift */,
+				60A0EE922991181100847B95 /* Application */,
+				60A0EE8F299117DE00847B95 /* Model */,
+				60A0EE91299117FD00847B95 /* ViewModel */,
+				60A0EE90299117ED00847B95 /* View */,
 				60A0EE762991037700847B95 /* MainTabBarViewController.swift */,
 				60A0EE862991065F00847B95 /* Controller */,
 				60A0EE7B2991037C00847B95 /* Assets.xcassets */,
@@ -82,6 +86,37 @@
 				60A0EE8D299106D000847B95 /* DownloadsViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		60A0EE8F299117DE00847B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60A0EE90299117ED00847B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60A0EE932991187000847B95 /* CollectionViewTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60A0EE91299117FD00847B95 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60A0EE922991181100847B95 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				60A0EE722991037700847B95 /* AppDelegate.swift */,
+				60A0EE742991037700847B95 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +191,7 @@
 			files = (
 				60A0EE8C299106AE00847B95 /* UpcomingViewController.swift in Sources */,
 				60A0EE8A2991068E00847B95 /* SearchViewController.swift in Sources */,
+				60A0EE942991187000847B95 /* CollectionViewTableViewCell.swift in Sources */,
 				60A0EE8E299106D000847B95 /* DownloadsViewController.swift in Sources */,
 				60A0EE772991037700847B95 /* MainTabBarViewController.swift in Sources */,
 				60A0EE732991037700847B95 /* AppDelegate.swift in Sources */,
