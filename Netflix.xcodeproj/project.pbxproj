@@ -14,6 +14,8 @@
 		60939B8D299302EF0044E706 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60939B8C299302EF0044E706 /* TitleCollectionViewCell.swift */; };
 		60939B90299304AB0044E706 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 60939B8F299304AB0044E706 /* SDWebImage */; };
 		60939B92299304AB0044E706 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 60939B91299304AB0044E706 /* SDWebImageMapKit */; };
+		60939BAE2993D2AF0044E706 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60939BAD2993D2AF0044E706 /* TitleTableViewCell.swift */; };
+		60939BB02993D5C70044E706 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60939BAF2993D5C70044E706 /* TitleViewModel.swift */; };
 		60A0EE732991037700847B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE722991037700847B95 /* AppDelegate.swift */; };
 		60A0EE752991037700847B95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE742991037700847B95 /* SceneDelegate.swift */; };
 		60A0EE772991037700847B95 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A0EE762991037700847B95 /* MainTabBarViewController.swift */; };
@@ -32,6 +34,8 @@
 		607CFD1F2992580D00930BEB /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		607CFD24299266C500930BEB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		60939B8C299302EF0044E706 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		60939BAD2993D2AF0044E706 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		60939BAF2993D5C70044E706 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		60A0EE6F2991037700847B95 /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A0EE722991037700847B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60A0EE742991037700847B95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +123,6 @@
 				60A0EE8F299117DE00847B95 /* Model */,
 				60A0EE90299117ED00847B95 /* View */,
 				60A0EE91299117FD00847B95 /* ViewModel */,
-				60A0EE762991037700847B95 /* MainTabBarViewController.swift */,
 				607CFD21299265C700930BEB /* Resource */,
 			);
 			path = Netflix;
@@ -128,6 +131,7 @@
 		60A0EE862991065F00847B95 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				60A0EE762991037700847B95 /* MainTabBarViewController.swift */,
 				60A0EE872991067800847B95 /* HomeViewController.swift */,
 				60A0EE8B299106AE00847B95 /* UpcomingViewController.swift */,
 				60A0EE892991068E00847B95 /* SearchViewController.swift */,
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				60A0EE932991187000847B95 /* CollectionViewTableViewCell.swift */,
+				60939BAD2993D2AF0044E706 /* TitleTableViewCell.swift */,
 				607CFD1A2991C19C00930BEB /* HeroHeaderUIView.swift */,
 				60939B8C299302EF0044E706 /* TitleCollectionViewCell.swift */,
 			);
@@ -157,6 +162,7 @@
 		60A0EE91299117FD00847B95 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				60939BAF2993D5C70044E706 /* TitleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -247,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60939BAE2993D2AF0044E706 /* TitleTableViewCell.swift in Sources */,
 				60A0EE8C299106AE00847B95 /* UpcomingViewController.swift in Sources */,
 				60939B8D299302EF0044E706 /* TitleCollectionViewCell.swift in Sources */,
 				60A0EE8A2991068E00847B95 /* SearchViewController.swift in Sources */,
@@ -260,6 +267,7 @@
 				607CFD1E2992511A00930BEB /* NetworkLayer.swift in Sources */,
 				607CFD202992580D00930BEB /* Title.swift in Sources */,
 				60A0EE882991067800847B95 /* HomeViewController.swift in Sources */,
+				60939BB02993D5C70044E706 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

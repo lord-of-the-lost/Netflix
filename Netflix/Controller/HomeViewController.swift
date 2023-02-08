@@ -69,6 +69,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         }
         
         switch indexPath.section {
+            
         case Sections.TrandingMovies.rawValue:
             NetworkLayer.shared.getTrandingMovies { result in
                 switch result {
